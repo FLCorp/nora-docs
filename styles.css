@@ -1,0 +1,164 @@
+@font-face {
+  src: url(font/NewShape-Book.ttf);
+  font-family: NoraDocs;
+}
+
+body{  
+  cursor: url(img/icons/cursor.png), default;
+  background: #1e1e1e;
+  overflow-x: hidden;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+header img{
+  max-width: 400px;
+}
+
+.new-docs{
+  background-color: #333;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.new-docs h1{
+  color: #fff;
+  font-family: NoraDocs;
+}
+
+.new-docs img{
+  cursor: url(img/icons/cursor.png), default;
+  width: 200px;
+}
+
+.new-docs img:active{
+  cursor: url(img/icons/select.png), pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-family: NoraDocs;
+}
+
+.docs{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+}
+
+footer{
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  font-family: Arial;
+}
+
+.noragroup-website{
+  text-align: center;
+}
+
+.noragroup-website a{
+  cursor: url(img/icons/cursor.png), default;
+  color: #fff;
+  font-family: NoraDocs;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.7s ease;
+}
+
+.noragroup-website a:hover{
+  color: #000000;
+  background-color: #fff;
+}
+
+.noragroup-website a:active{
+  cursor: url(img/icons/select.png), pointer;
+}
+
+::-webkit-scrollbar {
+    background-color: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+@media screen and (max-width : 426px){
+  header img{
+    max-width: 300px;
+  }
+  .new-docs{
+    background-color: #333;
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+  .new-docs img{
+    cursor: url(img/icons/cursor.png), default;
+    width: 100px;
+  }
+  .caption {
+      margin-top: 10px;
+      font-size: 9px;
+      color: #fff;
+      font-family: NoraDocs;
+  }
+  footer{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    font-family: Arial;
+  }
+}
+
+@media screen and (max-width : 320px){
+  header img{
+    max-width: 250px;
+  }
+  .new-docs{
+    background-color: #333;
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+  .new-docs img{
+    cursor: url(img/icons/cursor.png), default;
+    width: 100px;
+  }
+  .caption {
+      margin-top: 10px;
+      font-size: 9px;
+      color: #fff;
+      font-family: NoraDocs;
+  }
+  footer{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    font-family: Arial;
+  }
+}
